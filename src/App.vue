@@ -9,6 +9,7 @@
     <router-link to="/emit-test">EmitTest</router-link>
     <router-link to="/slot-modal">SlotUseModalLayout</router-link>
     <router-link to="/mixin">MixInTest</router-link>
+    <router-link to="/store">StoreAccess</router-link>
   </nav>
   <router-view/>
 </div>

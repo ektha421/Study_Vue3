@@ -41,6 +41,11 @@ const routes = [
     path: '/mixin',
     name: 'MixInTest',
     component: () => import(/* webpackChunkName: "about" */ '../views/MixInTest.vue')
+  },
+   {
+    path: '/store',
+    name: 'StoreAccess',
+    component: () => import(/* webpackChunkName: "about" */ '../views/StoreAccess.vue')
   }
 ]
 
