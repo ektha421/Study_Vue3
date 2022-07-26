@@ -10,6 +10,7 @@
     <router-link to="/slot-modal">SlotUseModalLayout</router-link>
     <router-link to="/mixin">MixInTest</router-link>
     <router-link to="/store">StoreAccess</router-link>
+    <router-link to="/kakaologin">KakaoLogin</router-link>
   </nav>
   <router-view/>
 </div>
