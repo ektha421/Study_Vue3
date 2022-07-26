@@ -36,6 +36,11 @@ const routes = [
     path: '/slot-modal',
     name: 'SlotUseModalLayout',
     component: () => import(/* webpackChunkName: "about" */ '../views/SlotUseModalLayout.vue')
+  },
+  {
+    path: '/mixin',
+    name: 'MixInTest',
+    component: () => import(/* webpackChunkName: "about" */ '../views/MixInTest.vue')
   }
 ]
 
